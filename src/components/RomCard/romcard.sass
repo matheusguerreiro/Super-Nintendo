@@ -1,0 +1,32 @@
+// colors
+@import '../../sass/colors'
+  
+// responsive
+@import '../../sass/responsive'
+
+
+.romcard
+  display: flex
+  flex-direction: column
+  cursor: pointer
+  box-shadow: 0 2px 4px 0 #00000029
+
+  img
+    border-radius: 2px
+    width: 411px
+    height: 300px
+
+    @include mobile
+      width: 100%
+      height: auto
+
+
+  label
+    font-weight: bold
+    background-color: $logo
+    width: 100%
+    text-align: center
+    display: none
+
+  &:hover
+    box-shadow: 0 4px 8px 0 $rlogo

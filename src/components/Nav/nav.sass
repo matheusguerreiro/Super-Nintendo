@@ -1,0 +1,36 @@
+// colors
+@import '../../sass/colors'
+
+.nav
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $ss
+  height: 128px
+
+  a
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 4px
+    margin-top: 4px
+    color: #FFF
+    width: 105.53px
+    
+    img
+      height: 64px
+      object-fit: cover
+      transition-duration: .5s
+      
+    &:hover
+      img
+        transition-duration: .25s
+        height: 88px
+
+  .active
+    color: $rlogo
+
+    img
+      height: 88px
+
+    
