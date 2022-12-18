@@ -15,7 +15,7 @@ const BackRomCard = ({title, rom, back, backImage, setBackImage}) => {
             src={back}
             alt={title}
             onClick={() => {setBackImage(false)}} />
-          {/* <a href={rom}>Download</a> */}
+          <a href={rom}>Download</a>
         </div>
       </div>
   )
