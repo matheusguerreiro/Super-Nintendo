@@ -1,11 +1,8 @@
 $w1440: 1440px
-$h900: 900px
 
 $w1366: 1366px
-$h768: 768px
 
 $w1280: 1280px
-$h800: 800px
 
 $h600: 600px
 
@@ -16,28 +13,28 @@ $mobile: 425px
 $m375: 375px
 $m349: 349px
 
-@mixin w1440h900
-  @media (max-width: $w1440) and (max-height: $h900)
+@mixin w1440
+  @media (max-width: $w1440)
     @content
 
-@mixin w1366h768
-  @media (max-width: $w1366) and (max-height: $h768)
+@mixin w1366
+  @media (max-width: $w1366)
     @content
 
-@mixin w1280h800
-  @media (max-width: $w1280) and (max-height: $h800)
+@mixin w1280
+  @media (max-width: $w1280)
     @content
 
 @mixin laptop
   @media (max-width: $laptop)
     @content
 
-@mixin w1024h768
-  @media (max-width: $laptop) and (max-height: $h768)
+@mixin w1024
+  @media (max-width: $laptop)
     @content
 
-@mixin w1024h600
-  @media (max-width: $laptop) and (max-height: $h600)
+@mixin w1024
+  @media (max-width: $laptop)
     @content
 
 @mixin t820

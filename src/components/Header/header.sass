@@ -1,12 +1,16 @@
 // responsive
 @import '../../sass/responsive'
 
+// colors
+@import '../../sass/colors'
+
   
 .header
   background-color: #000
   display: flex
   justify-content: space-between
-  align-items: flex-end
+  // align-items: flex-end
+  align-items: center
   width: 100%
   max-height: 128px
   height: fit-content
@@ -25,21 +29,63 @@
       height: auto
 
 
-  .logo
+  .title
+    color: $rlogo
     display: flex
-    width: 331px
-    height: fit-content
-    margin: 0 16px
+    flex-direction: column
+    align-items: center
+    margin-top: 2px
+    // display: flex
+    // width: 331px
+    // height: fit-content
+    // margin: 0 16px
 
-    @include mobile
-      margin: 0 3.1%
+    // @include mobile
+    //   margin: 0 3.1%
 
-    @include m349
-      width: 93%
+    // @include m349
+    //   width: 93%
 
-    img
+    // img
+    //   width: 100%
+    //   height: auto
+
+    h1
+      color: $rlogo
+      font-family: snes
+      font-weight: normal
+      font-style: italic
+      font-size: 88px
+      text-transform: uppercase
+    
+    .es
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
       width: 100%
-      height: auto
+      height: 27px
+      margin-top: -19px
+      background-color: $rlogo
+      margin-left: 8px
+
+      .i
+        color: #000
+        font-family: entertainment_system
+        text-transform: uppercase
+        font-style: italic
+        font-size: 24px
+        margin-left: 4px
+
+      .m
+        @extend .i
+        margin-left: 0
+        
+
+      .f
+        @extend .i
+        margin-left: 0
+        padding-right: 6px
+        
 
 
   .fourRight

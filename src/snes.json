@@ -255,8 +255,8 @@
     "rom": "https://drive.google.com/uc?export=download&id=1aTmWb_Q0WDrcOyaOA9Sv36nrKUo3T49H",
     "images": {
       "front": "https://drive.google.com/uc?export=download&id=17ndsWz972WNUDMPqoXLAUFAv_L_rr5ck",
-      "back": "https://drive.google.com/uc?export=download&id=1R48eCS48386zFM-TUMdKlM3NoW_2tUEH",
-      "secondaryBack": "https://drive.google.com/uc?export=download&id=1R48eCS48386zFM-TUMdKlM3NoW_2tUEH"
+      "back": "https://drive.google.com/uc?export=download&id=1X2hRN8y6P5Y9O8tyb-9GuozqTbAJ8pdh",
+      "secondaryBack": "https://drive.google.com/uc?export=download&id=1X2hRN8y6P5Y9O8tyb-9GuozqTbAJ8pdh"
     }
   },
   {
@@ -390,13 +390,13 @@
     }
   },
   {
-    "id": 30,
-    "title": "",
-    "rom": "",
+    "id": 40,
+    "title": "Sunset Riders",
+    "rom": "https://drive.google.com/uc?export=download&id=1ral-MoFTvL_ueholIZrTcRUy2yK26iUf",
     "images": {
-      "front": "",
-      "back": "",
-      "secondaryBack": ""
+      "front": "https://drive.google.com/uc?export=download&id=1b0yqyKtrEnalyXKXOxQAkmpLJN_5nhFf",
+      "back": "https://drive.google.com/uc?export=download&id=1f6hnUpr-HJPhbYISbiw_AgZ5UIoePfRN",
+      "secondaryBack": "https://drive.google.com/uc?export=download&id=1uxF3TqeuHtzbZP85iEZTAY_jdqzkzfps"
     }
   },
   {
