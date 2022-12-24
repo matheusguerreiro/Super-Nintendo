@@ -1,11 +1,16 @@
 // react
-import React from 'react'
+import React, { useRef } from 'react'
 
 // sass
 import './backromcard.sass'
 
 
 const BackRomCard = ({title, rom, back, backImage, setBackImage}) => {
+
+  const aRef = useRef("")
+  setTimeout(() => {
+    aRef.current.style.display = "flex"
+  }, 2000)
 
   return (
     backImage && 
@@ -15,7 +20,7 @@ const BackRomCard = ({title, rom, back, backImage, setBackImage}) => {
             src={back}
             alt={title}
             onClick={() => {setBackImage(false)}} />
-          <a href={rom}>Download</a>
+          <a ref={aRef} href={rom}>Download</a>
         </div>
       </div>
   )

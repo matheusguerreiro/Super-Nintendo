@@ -16,21 +16,26 @@
     margin-top: 4px
     color: #FFF
     width: 105.53px
+    width: 128px
     
     img
       height: 64px
       object-fit: cover
       transition-duration: .5s
+      filter: grayscale(100%)
       
     &:hover
       img
         transition-duration: .25s
         height: 88px
+        // filter: none
 
   .active
     color: $rlogo
+    font-weight: bold
 
     img
       height: 88px
+      filter: none
 
     

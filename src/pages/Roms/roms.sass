@@ -7,6 +7,8 @@
 
 .roms
   background-color: $body
+  border-left: 36px solid #000
+  border-right: 36px solid #000
   display: flex
   flex-wrap: wrap
   justify-content: center
@@ -14,6 +16,18 @@
   flex: 1
   padding: 32px
   gap: 32px
+
+  @include w1440
+    border-left: 253px solid #000
+    border-right: 253px solid #000
+
+  @include laptop
+    border-left: 45px solid #000
+    border-right: 45px solid #000
+
+  @include tablet
+    border-left: 146px solid #000
+    border-right: 146px solid #000
 
   @include mobile
     padding: 16px
