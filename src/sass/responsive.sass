@@ -9,6 +9,7 @@ $h600: 600px
 $laptop: 1024px
 $t820: 820px
 $tablet: 768px
+$m475: 475px
 $mobile: 425px
 $m375: 375px
 $m349: 349px
@@ -43,6 +44,10 @@ $m349: 349px
 
 @mixin tablet
   @media (max-width: $tablet)
+    @content
+
+@mixin m475
+  @media (max-width: $m475)
     @content
 
 @mixin mobile

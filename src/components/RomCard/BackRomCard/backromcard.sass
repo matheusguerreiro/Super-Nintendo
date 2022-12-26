@@ -24,22 +24,18 @@
     height: 100%
     width: fit-content
 
-    // @include w1366h768
-    //   width: 67%
+    @media (max-width: 800px)
+      width: 100%
+      height: fit-content
 
-    // @include w1280h800
-    //   width: 67%
-
-    // @include w1024h768
-    //   width: 96.8%
-
-    // @include t820
-    //   width: 100%
-  
     img
       width: fit-content !important
       height: 100% !important
       border-radius: 4px 4px 0 0 !important
+
+      @media (max-width: 800px)
+        width: 100% !important
+        height: fit-content !important
 
     a
       display: none
